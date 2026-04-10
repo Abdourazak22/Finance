@@ -1,0 +1,38 @@
+
+POST http://localhost:8000/api/auth/register/
+Content-Type: application/json
+
+{
+    "email": "cheick@gmail.com",
+    "nom":"Cheick",
+    "prenom":"razak",
+    "entreprise":"cheick",
+    "telephone":"789654",
+    "password": "123456789",
+    "password2": "123456789"
+}
+
+###
+POST http://localhost:8000/api/auth/login/
+Content-Type: application/json
+
+{
+    "email": "cheick@gmail.com",
+    "password": "123456789"
+}
+
+
+###
+POST http://localhost:8000/api/dettes/
+Authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzczMDYxNTMyLCJpYXQiOjE3NzMwNjEyMzIsImp0aSI6Ijk2Y2NlYjUyMTE5MTQ0M2FiNzI5NjAzY2FkMjYzZmQ2IiwidXNlcl9pZCI6IjEifQ.Bt4VBra_HuDGdPJJByWuzVt0UqX-XA0ncbvrDTeinT4"
+Content-Type: application/json
+
+{
+    "type": "dette",
+    "tiers": "Fournisseur Alpha",
+    "montant_total": 500000,
+    "montant_rembourse": 0,
+    "echeance": "2026-06-01",
+    "statut": "en_cours",
+    "description": "Achat marchandises"
+}
