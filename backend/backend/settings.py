@@ -17,7 +17,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["finance-66rw.onrender.com"]
+ALLOWED_HOSTS = ["finance-v5gq.onrender.com"]
 
 
 # Application definition
@@ -50,7 +50,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-     "https://finance-git-main-somacheick9-3586s-projects.vercel.app"
+     "https://finance-ux3k.vercel.app",
+     "https://finance-ux3k-3bjhv1plu-somacheick9-3586s-projects.vercel.app",
 ]
 
 REST_FRAMEWORK = {
