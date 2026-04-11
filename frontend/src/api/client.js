@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api/',
+  baseURL: 'https://finance-v5gq.onrender.com/api/',
   headers: { 'Content-Type': 'application/json' },
 })
 
@@ -21,7 +21,7 @@ api.interceptors.response.use(
       original._retry = true
       try {
         const refresh = localStorage.getItem('refresh_token')
-        const res = await axios.post('http://localhost:8000/api/auth/login/', {
+        const res = await axios.post('https://finance-v5gq.onrender.com/api/auth/login/', {
           refresh,
         })
         localStorage.setItem('access_token', res.data.access)
