@@ -1,0 +1,446 @@
+[
+{
+  "model": "api.categorie",
+  "pk": 26,
+  "fields": {
+    "nom": "Salaires",
+    "type": "sortie"
+  }
+},
+{
+  "model": "api.categorie",
+  "pk": 27,
+  "fields": {
+    "nom": "Loyer",
+    "type": "sortie"
+  }
+},
+{
+  "model": "api.categorie",
+  "pk": 28,
+  "fields": {
+    "nom": "Electricité / eau",
+    "type": "sortie"
+  }
+},
+{
+  "model": "api.categorie",
+  "pk": 29,
+  "fields": {
+    "nom": "Fournitures bureau",
+    "type": "sortie"
+  }
+},
+{
+  "model": "api.categorie",
+  "pk": 30,
+  "fields": {
+    "nom": "Transport",
+    "type": "sortie"
+  }
+},
+{
+  "model": "api.categorie",
+  "pk": 31,
+  "fields": {
+    "nom": "Taxes et impôts",
+    "type": "sortie"
+  }
+},
+{
+  "model": "api.categorie",
+  "pk": 32,
+  "fields": {
+    "nom": "Achat marchandises",
+    "type": "sortie"
+  }
+},
+{
+  "model": "api.categorie",
+  "pk": 33,
+  "fields": {
+    "nom": "Autre dépense",
+    "type": "sortie"
+  }
+},
+{
+  "model": "api.categorie",
+  "pk": 34,
+  "fields": {
+    "nom": "Vente marchandises",
+    "type": "entree"
+  }
+},
+{
+  "model": "api.categorie",
+  "pk": 35,
+  "fields": {
+    "nom": "Prestation service",
+    "type": "entree"
+  }
+},
+{
+  "model": "api.categorie",
+  "pk": 36,
+  "fields": {
+    "nom": "Remboursement reçu",
+    "type": "entree"
+  }
+},
+{
+  "model": "api.categorie",
+  "pk": 37,
+  "fields": {
+    "nom": "Autre revenu",
+    "type": "entree"
+  }
+},
+{
+  "model": "api.transaction",
+  "pk": 6,
+  "fields": {
+    "user": 2,
+    "type": "entree",
+    "description": "Bics",
+    "categorie": 34,
+    "date": "2026-03-09",
+    "statut": "confirme",
+    "montant": "149999.00",
+    "created_at": "2026-03-09T11:57:47.117Z",
+    "updated_at": "2026-03-09T11:57:47.117Z"
+  }
+},
+{
+  "model": "api.transaction",
+  "pk": 7,
+  "fields": {
+    "user": 2,
+    "type": "sortie",
+    "description": "Orange",
+    "categorie": 32,
+    "date": "2026-03-09",
+    "statut": "confirme",
+    "montant": "2500.00",
+    "created_at": "2026-03-09T12:02:14.602Z",
+    "updated_at": "2026-03-09T12:02:14.602Z"
+  }
+},
+{
+  "model": "api.transaction",
+  "pk": 17,
+  "fields": {
+    "user": 2,
+    "type": "sortie",
+    "description": "Employe",
+    "categorie": 26,
+    "date": "2026-03-09",
+    "statut": "confirme",
+    "montant": "250000.00",
+    "created_at": "2026-03-09T13:23:04.385Z",
+    "updated_at": "2026-03-09T13:23:04.385Z"
+  }
+},
+{
+  "model": "api.transaction",
+  "pk": 21,
+  "fields": {
+    "user": 2,
+    "type": "entree",
+    "description": "Vente",
+    "categorie": 34,
+    "date": "2026-03-17",
+    "statut": "confirme",
+    "montant": "350000.00",
+    "created_at": "2026-03-17T15:24:35.233Z",
+    "updated_at": "2026-03-17T15:24:35.236Z"
+  }
+},
+{
+  "model": "api.transaction",
+  "pk": 24,
+  "fields": {
+    "user": 2,
+    "type": "sortie",
+    "description": "VDF",
+    "categorie": 30,
+    "date": "2026-03-30",
+    "statut": "confirme",
+    "montant": "125000.00",
+    "created_at": "2026-03-30T12:53:56.757Z",
+    "updated_at": "2026-03-30T14:02:48.458Z"
+  }
+},
+{
+  "model": "api.transaction",
+  "pk": 25,
+  "fields": {
+    "user": 2,
+    "type": "entree",
+    "description": "FDGDG",
+    "categorie": 34,
+    "date": "2026-04-03",
+    "statut": "confirme",
+    "montant": "125000.00",
+    "created_at": "2026-04-03T07:50:33.734Z",
+    "updated_at": "2026-04-03T07:50:33.734Z"
+  }
+},
+{
+  "model": "api.transaction",
+  "pk": 26,
+  "fields": {
+    "user": 2,
+    "type": "sortie",
+    "description": "yugttè",
+    "categorie": 27,
+    "date": "2026-04-10",
+    "statut": "confirme",
+    "montant": "785.00",
+    "created_at": "2026-04-10T23:36:39.887Z",
+    "updated_at": "2026-04-10T23:37:45.961Z"
+  }
+},
+{
+  "model": "api.transaction",
+  "pk": 27,
+  "fields": {
+    "user": 2,
+    "type": "entree",
+    "description": "GTRTIU",
+    "categorie": 34,
+    "date": "2026-04-10",
+    "statut": "confirme",
+    "montant": "12000000.00",
+    "created_at": "2026-04-10T23:37:05.385Z",
+    "updated_at": "2026-04-10T23:37:05.385Z"
+  }
+},
+{
+  "model": "api.dette",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "type": "dette",
+    "tiers": "Debiteur",
+    "montant_total": "150000.00",
+    "montant_rembourse": "50000.00",
+    "echeance": "2026-03-15",
+    "statut": "en_cours",
+    "description": "gtr",
+    "created_at": "2026-03-09T13:17:41.772Z",
+    "updated_at": "2026-03-09T13:17:41.772Z"
+  }
+},
+{
+  "model": "api.dette",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "type": "creance",
+    "tiers": "Razak",
+    "montant_total": "200000.00",
+    "montant_rembourse": "100000.00",
+    "echeance": "2026-03-10",
+    "statut": "partiel",
+    "description": "Urgent",
+    "created_at": "2026-03-09T13:20:09.038Z",
+    "updated_at": "2026-03-09T13:20:09.039Z"
+  }
+},
+{
+  "model": "api.dette",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "type": "dette",
+    "tiers": "KLK",
+    "montant_total": "1258000.00",
+    "montant_rembourse": "875.00",
+    "echeance": "2026-04-01",
+    "statut": "en_cours",
+    "description": ",NIOPI",
+    "created_at": "2026-03-30T12:59:14.772Z",
+    "updated_at": "2026-03-30T12:59:14.772Z"
+  }
+},
+{
+  "model": "api.dette",
+  "pk": 4,
+  "fields": {
+    "user": 2,
+    "type": "dette",
+    "tiers": "JKLK",
+    "montant_total": "787887.00",
+    "montant_rembourse": "779.00",
+    "echeance": "2026-04-01",
+    "statut": "en_cours",
+    "description": "KIÀIPPK",
+    "created_at": "2026-03-30T13:00:00.323Z",
+    "updated_at": "2026-03-30T13:00:00.323Z"
+  }
+},
+{
+  "model": "api.budget",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "categorie": 26,
+    "montant": "1000000.00",
+    "periode": "mensuel",
+    "mois": 3,
+    "annee": 2026,
+    "created_at": "2026-03-09T11:48:18.486Z"
+  }
+},
+{
+  "model": "api.budget",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "categorie": 32,
+    "montant": "200000.00",
+    "periode": "mensuel",
+    "mois": 3,
+    "annee": 2026,
+    "created_at": "2026-03-16T18:07:45.320Z"
+  }
+},
+{
+  "model": "api.budget",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "categorie": 27,
+    "montant": "876453.00",
+    "periode": "mensuel",
+    "mois": 3,
+    "annee": 2026,
+    "created_at": "2026-03-30T08:48:52.002Z"
+  }
+},
+{
+  "model": "api.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$fAkNdEJ7jl0mlqymFwv0Zu$gBlH/OmuO0yUI7hvKtknloSK8X63h+yM2iY7aRWsCl8=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "cheick@gmail.com",
+    "nom": "Cheick",
+    "prenom": "razak",
+    "entreprise": "cheick",
+    "telephone": "789654",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-03-08T21:39:15.656Z",
+    "user_permissions": [],
+    "groups": []
+  }
+},
+{
+  "model": "api.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$BWqybLJLnfrkeQJ2KTMTQE$Ij9fWoDUC3sFyZ8itCELDr68skF9buFgWtgkE7oUx2g=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "somacheick9@gmail.com",
+    "nom": "SOMA",
+    "prenom": "Yambia Cheick Abdourazak",
+    "entreprise": "dfgfdt",
+    "telephone": "+22655467203",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-03-09T10:43:41.857Z",
+    "user_permissions": [],
+    "groups": []
+  }
+},
+{
+  "model": "api.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$Y93ZSP0Vmm1GGMavMD1vRC$Ix2UyyripqQ+izU1B8yk4deCQ9FpjezTSczawuDRxOE=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "drissa@gmail.com",
+    "nom": "SOMDA",
+    "prenom": "DRISSA",
+    "entreprise": "DRISSA FRERE",
+    "telephone": "87896534",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-03-30T14:04:59.323Z",
+    "user_permissions": [],
+    "groups": []
+  }
+},
+{
+  "model": "api.facture",
+  "pk": 7,
+  "fields": {
+    "user": 2,
+    "transaction": null,
+    "numero": "FAC-2026-0002",
+    "client_nom": "Soma Yambia Cheick Abdourazak",
+    "client_email": "somacheick9@gmail.com",
+    "client_telephone": "+22655467203",
+    "client_adresse": "Bobo-Dioulasso Secteur 29",
+    "date_emission": "2026-03-30",
+    "date_echeance": "2026-04-02",
+    "statut": "en_attente",
+    "sous_total": "254949.00",
+    "taux_tva": "8.00",
+    "montant_tva": "20395.92",
+    "montant_total": "275344.92",
+    "notes": "",
+    "created_at": "2026-03-30T20:36:14.539Z",
+    "updated_at": "2026-04-03T07:52:40.081Z"
+  }
+},
+{
+  "model": "api.facture",
+  "pk": 8,
+  "fields": {
+    "user": 2,
+    "transaction": null,
+    "numero": "FAC-2026-0003",
+    "client_nom": "SOMDA",
+    "client_email": "gdfgdfh@gmail.com",
+    "client_telephone": "54687656",
+    "client_adresse": "gvrgr",
+    "date_emission": "2026-03-30",
+    "date_echeance": "2026-04-01",
+    "statut": "payee",
+    "sous_total": "178000.00",
+    "taux_tva": "8.00",
+    "montant_tva": "14240.00",
+    "montant_total": "192240.00",
+    "notes": "nbhbiu",
+    "created_at": "2026-03-30T20:47:17.389Z",
+    "updated_at": "2026-03-30T20:47:17.389Z"
+  }
+},
+{
+  "model": "api.lignefacture",
+  "pk": 2,
+  "fields": {
+    "facture": 7,
+    "description": "NBGK",
+    "quantite": "17.00",
+    "prix_unitaire": "14997.00",
+    "total": "254949.00"
+  }
+},
+{
+  "model": "api.lignefacture",
+  "pk": 3,
+  "fields": {
+    "facture": 8,
+    "description": "vfrtg",
+    "quantite": "178.00",
+    "prix_unitaire": "1000.00",
+    "total": "178000.00"
+  }
+}
+]
